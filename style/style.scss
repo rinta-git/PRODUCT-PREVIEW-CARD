@@ -1,0 +1,9 @@
+@import 'variables';
+@import 'mixins';
+@import 'card';
+
+body, html{
+    background-color: $cream-bg;
+    height: 100%;
+    margin: 0;
+}

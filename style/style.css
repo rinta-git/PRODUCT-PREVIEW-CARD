@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 1.75rem 1rem;
+}
+
+.card {
+  max-width: 21.438rem;
+}
+
+div.card-img .img-mobile {
+  width: 21.438rem;
+  border-radius: 0.625rem 0.625rem 0 0;
+  display: block;
+}
+
+.img-desktop {
+  display: none;
+}
+
+.card-desc {
+  background-color: #ffffff;
+  padding: 1.5rem;
+}
+
+small,
+p,
+h3 {
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  color: #6C7289;
+}
+
+small {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.313rem;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.438rem;
+}
+
+h3 {
+  font-size: 0.813rem;
+  line-height: 1.438rem;
+  text-decoration: line-through;
+}
+
+.price-section {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+button {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-family: "Montserrat", serif;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3D8168;
+  padding: 0.938rem 5.75rem;
+  display: flex;
+  align-items: center;
+}
+button:hover {
+  background-color: #1A4032;
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+  line-height: 2rem;
+}
+
+h1 {
+  color: #1C232B;
+  margin: 1rem 0;
+}
+
+h2 {
+  color: #3D8168;
+  margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    max-width: 37.5rem;
+  }
+  .card-desc {
+    padding: 2rem;
+    border-radius: 0 0.625rem 0.625rem 0;
+  }
+  div.card-img .img-desktop {
+    display: block;
+    border-radius: 0.625rem 0 0 0.625rem;
+    width: 18.75rem;
+  }
+  div.card-img .img-mobile {
+    display: none;
+  }
+  button {
+    padding-right: 3.938rem;
+    padding-left: 3.938rem;
+  }
+  h1 {
+    margin: 1.5rem 0;
+  }
+}
+body, html {
+  background-color: #F2EAE2;
+  height: 100%;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
