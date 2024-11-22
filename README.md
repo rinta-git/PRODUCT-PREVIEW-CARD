@@ -27,15 +27,15 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code](https://your-solution-url.com)
-- Live Site URL: [PRODUCT-PREVIEW-CARD](https://your-live-site-url.com)
+- Solution URL: [Code](https://github.com/rinta-git/PRODUCT-PREVIEW-CARD/blob/main/index.html)
+- Live Site URL: [PRODUCT-PREVIEW-CARD](https://rinta-git.github.io/PRODUCT-PREVIEW-CARD/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS preprocessor: SASS
+- CSS preprocessor: Sass
 - Flexbox
 - Mobile-first workflow
 
