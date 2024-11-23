@@ -11,7 +11,6 @@ p {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  margin: 1.75rem 1rem;
 }
 
 .card {
@@ -21,6 +20,7 @@ p {
 picture.card-img .img-fallback {
   width: 21.438rem;
   border-radius: 0.625rem 0.625rem 0 0;
+  display: block;
 }
 
 .card-desc {
@@ -106,6 +106,7 @@ span.latest-price {
   picture.card-img .img-fallback {
     border-radius: 0.625rem 0 0 0.625rem;
     width: 18.75rem;
+    display: block;
   }
   button {
     padding-right: 3.938rem;
