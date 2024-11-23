@@ -1,6 +1,4 @@
 h1,
-h2,
-h3,
 p {
   margin: 0;
   padding: 0;
@@ -15,15 +13,11 @@ p {
 .card{
     max-width: 21.438rem;
 }
-div.card-img {
-  .img-mobile {
+picture.card-img {
+  .img-fallback {
     width: 21.438rem;
     border-radius: 0.625rem 0.625rem 0 0;
-    display: block;
   }
-}
-.img-desktop {
-  display: none;
 }
 .card-desc {
   background-color: $pure-white;
@@ -31,7 +25,7 @@ div.card-img {
 }
 small,
 p,
-h3 {
+span.old-price {
   @include montserrat-font-family;
 }
 small {
@@ -43,7 +37,7 @@ p {
   font-size: $fs14;
   line-height: 1.438rem;
 }
-h3 {
+span.old-price {
   font-size: $fs13;
   line-height: 1.438rem;
   text-decoration: line-through;
@@ -70,7 +64,7 @@ button {
   align-items: center;
 }
 h1,
-h2 {
+span.latest-price {
   font-size: $fs32;
   font-weight: 700;
   font-family: "Fraunces", serif;
@@ -80,7 +74,7 @@ h1 {
   color: $heading-color;
   margin: 1rem 0;
 }
-h2 {
+span.latest-price {
   color: $btn-color;
   margin-right: 1rem;
 }
@@ -94,15 +88,11 @@ h2 {
     padding: 2rem;
     border-radius: 0 0.625rem 0.625rem 0;
   }
-  div.card-img {
-    .img-desktop {
-      display: block;
+  picture.card-img {
+    .img-fallback {
       border-radius: 0.625rem 0 0 0.625rem;
       width: 18.75rem;
     }
-  }
-  div.card-img .img-mobile {
-    display: none;
   }
   button {
     padding-right: 3.938rem;
